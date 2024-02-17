@@ -1,0 +1,43 @@
+body{
+    padding: 60px;
+}
+.parent-div{
+padding: 100px;
+
+    background-color:red;
+    
+}
+.child-div{
+    width:900px ;
+    height:1100px ;
+    background-color:white;
+margin:0 auto;
+div{
+    background-color: black;
+    color: white;
+    word-spacing: 90px;
+    width: 700px;
+    height: 20px;
+    margin:0 auto;
+}
+h1{
+    color: black;
+    word-spacing:40px;
+
+}
+p{
+    width:700px;
+    height:40px;
+    margin:0 auto;
+}
+div>img{
+    width: 700px;
+    height:400px;
+    margin:0 auto;
+}
+.image-container img{
+    float: left;
+    margin-right: 10px;
+}
+}
+
